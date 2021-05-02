@@ -4,7 +4,7 @@ require_relative '../models/checkout'
 class CheckoutTest < Test::Unit::TestCase
   def init
     co = Checkout.new
-    co.init
+    co.init(true)
   end
 
   def test_3atv_1vga

@@ -1,11 +1,11 @@
 require 'json'
 
 module Initialization
-  def init
+  def init(test=false)
     @@env = read_env
     @@price_list = get_price_list
     @@discount_rule_list = get_rule_list
-    print_start_screen
+    print_start_screen unless test
   end
 
   def read_env
