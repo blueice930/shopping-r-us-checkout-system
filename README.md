@@ -1,9 +1,5 @@
 # shopping-r-us-checkout-system
-<<<<<<< Updated upstream
-A simple yet robust and customizable checkout system built for Shopping-r-us computer store.
-=======
 A simple yet robust and customizable checkout system `CLI` built for Shopping-r-us computer store.
-
 ### Environment🌞:
 > ##### Terminal with ruby 2.7
 
@@ -56,5 +52,5 @@ A simple yet robust and customizable checkout system `CLI` built for Shopping-r-
   * `detail`: the discount detail and conditions, including `trigger_amount` (The amount of `item` to satisfy the discount), and `discount_amount` (The amount of discount to be deducted later, unit is not unified.). For `BUNDLE` type discount, `addon` specifies the item to be given away freely (In `BUNDLE`, `discount_amount` means the number of `addon` -> free gift )
 
 ### Testing🤖️
+* Enter `ruby test/test.rb` to run test cases
 
->>>>>>> Stashed changes

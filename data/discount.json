@@ -1,0 +1,27 @@
+[
+  {
+    "item": "atv",
+    "discount_type": "XFORY",
+    "detail": {
+      "trigger_amount": 3,
+      "discount_amount": 1
+    }
+  },
+  {
+    "item": "ipd",
+    "discount_type": "SUBTRACT_PRICE",
+    "detail": {
+      "trigger_amount": 5,
+      "discount_amount": 50
+    }
+  },
+  {
+    "item": "mbp",
+    "discount_type": "BUNDLE",
+    "detail": {
+      "trigger_amount": 1,
+      "discount_amount": 1,
+      "addon": "vga"
+    }
+  }
+]
